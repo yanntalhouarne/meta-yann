@@ -1,0 +1,7 @@
+CONVERT PNG TO PMM FORMAT:
+
+1 - INSTALL NETPBM:
+	sudo apt-get install netpbm
+2 - CONVERT IMAGE "logo.png":
+	pngtopnm logo.png | ppmquant 224 | pnmnoraw > logo_linux_clut224.ppm
+	
